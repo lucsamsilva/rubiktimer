@@ -1,6 +1,6 @@
 # Rubik Timer 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://github.com/lucsamsilva/worddic/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://github.com/lucsamsilva/rubiktimer/blob/main/LICENSE)
 
 
 
