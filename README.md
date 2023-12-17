@@ -6,7 +6,7 @@
 
 # Sobre o projeto
 
-https://rubiktimer.netlify.app
+https://rubikt.netlify.app
 
 O Rubik Timer é uma site contruifo em react enquanto estava explorando as funcionalidades dos hooks.
 
