@@ -1,0 +1,31 @@
+.msgEvent { 
+    background-color: #ff7856 ;
+    padding: 8px 55px; 
+    border-radius: .5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 10vh;
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .msgEvent { 
+        margin-bottom: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1040px) {
+    .msgEvent { 
+        position: fixed;
+        right: 35px;
+        top: 5vh;
+    }
+
+
+}
+
+

@@ -1,0 +1,50 @@
+.navBarContainer { 
+  position: fixed; 
+  top: 10px; 
+  left: 10px;
+}
+
+.navBarContainer > h1 { 
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #333;
+
+}
+
+.container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  min-height: 95svh;
+}
+
+
+
+footer { 
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.links { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.links > a {
+  font-weight: 700;
+  font-size: 10px;
+  text-decoration: none;
+  color: #333;
+
+  transition: all .5s;
+}
+
+.links  a:hover{
+ text-decoration: underline;
+}

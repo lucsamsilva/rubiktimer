@@ -1,0 +1,75 @@
+.tableContainer {
+    min-width: 140px;
+    height: 120px; 
+    overflow-y: auto; 
+
+}
+
+table { 
+    border-radius: .5rem;
+    font-size: .8rem ;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+
+    border-collapse: collapse;
+
+    
+}
+
+table td, table th {
+    text-align: center;
+    padding: .4em;
+}
+
+table td {
+    font-size: .8rem;
+    border: 0px 1px solid #333;
+}
+
+th { 
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+table thead th {
+    color: #333;
+    font-weight: 500;
+    background: #ffff56;
+    
+}
+
+
+/* Estilos para a barra de rolagem personalizada */
+.tableContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .tableContainer { 
+        margin-top: 25px;
+    }
+
+
+}
+
+@media screen and (min-width: 1040px) {
+    .tableContainer { 
+        position: fixed;
+        left: 35px;
+        bottom: 25vh;
+    }
+
+
+}
+

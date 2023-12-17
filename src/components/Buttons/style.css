@@ -1,0 +1,28 @@
+.buttonsContainer { 
+    display: flex;
+    gap: 12px;
+    text-transform: uppercase;
+}
+
+.buttonsContainer a { 
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+
+
+    padding: 9px 14px;
+    border: solid 1px #333; 
+    border-radius: .5rem;
+
+    box-shadow: 0 2px 4px 0  #333;
+
+ 
+}
+
+.btnStart { 
+    background: #ffff56;
+    box-shadow: 0 2px 4px 0  #efb710da;
+
+}
+
+
